@@ -12,7 +12,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = {"com.program.springmvc.jpa.controller"})
+@ComponentScan(basePackages = "com.program.springmvc.jpa.*")
 public class WebMvcConfig implements WebMvcConfigurer{
 	
 	@Bean
